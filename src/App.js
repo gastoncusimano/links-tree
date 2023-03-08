@@ -5,7 +5,7 @@ import { AiFillGithub, AiOutlineFilePdf, AiOutlineLinkedin, AiOutlineCoffee, AiO
 export default function App() {
   return (
     <Wrapper>
-      <img src={logo} className='logo' />
+      <img src={logo} className='logo' alt="Logo" />
       <h1 className="h1" data-text={"Gastón Cusimano"}>Gastón Cusimano</h1>
       <p className="p"> Full Stack Engineer @ <span style={{textDecoration: 'underline', textUnderlineOffset: 2}}>Beetrack/DispatchTrack</span></p>
       <ul>
