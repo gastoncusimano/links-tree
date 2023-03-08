@@ -1,16 +1,24 @@
 import styled from "styled-components";
 import logo from './cumsi_512.png'
 import { AiFillGithub, AiOutlineFilePdf, AiOutlineLinkedin, AiOutlineCoffee, AiOutlineLaptop, AiOutlineLayout} from "react-icons/ai";
+import { Link } from "react-router-dom";
 
-export default function App() {
+
+export default function Links() {
   return (
     <Wrapper>
       <img src={logo} className='logo' alt="Logo" />
       <h1 className="h1" data-text={"Gastón Cusimano"}>Gastón Cusimano</h1>
       <p className="p"> Full Stack Engineer @ <span style={{textDecoration: 'underline', textUnderlineOffset: 2}}>Beetrack/DispatchTrack</span></p>
       <ul>
-        { items.map((item) => {
-          return <li><a className={`button ${item.type}`} href={item.link}>{item.type} <span>{item.title}</span></a></li>
+        { items.map((item) => { 
+          if(item.title == 'My Resume') {
+            return <li><a className={`button ${item.type}`} href={item.link} download>{item.type} <span>{item.title}</span></a></li>
+          } else if (item.title == 'Portfolio'){
+            return <li><Link to="/"></Link><a className={`button ${item.type}`} href={item.link}>{item.type} <span>{item.title}</span></a></li>
+          } else {
+            return <li><a className={`button ${item.type}`} href={item.link}>{item.type} <span>{item.title}</span></a></li>
+          }
         })}   
       </ul>
     </Wrapper>
@@ -126,6 +134,17 @@ const Wrapper = styled.div`
         right: 0;
       }
     }
+    @media (max-width: 370px) {
+      margin: 45px 25px;
+      &:before {
+        top: -.5rem;
+        left: .5rem;
+      }
+      &:after {
+        top: 1.3rem;
+        right: 0;
+      }
+    }
   }
   ul {
     padding: 0;
@@ -207,7 +226,7 @@ const items = [
   {
     title: 'My Resume',
     type: <AiOutlineFilePdf/>,
-    link: 'https://gastoncusimano.me/resume'
+    link: '/Gaston_Cusimano_fullstack.pdf'
   },
   {
     title: 'LinkedIn',
@@ -217,17 +236,12 @@ const items = [
   {
     title: 'Portfolio',
     type: <AiOutlineLayout/>,
-    link: 'https://gastoncusimano.me/portfolio'
+    link: '/portfolio'
   },
   {
     title: 'Github',
     type: <AiFillGithub/>,
     link: 'https://github.com/gastoncusimano'
-  },
-  {
-    title: 'My Hardware',
-    type: <AiOutlineLaptop/>,
-    link: 'https://gastoncusimano.me/hardware'
   },
   {
     title: 'Buy me a coffee',
