@@ -12,9 +12,9 @@ export default function Links() {
       <p className="p"> Full Stack Engineer @ <span style={{textDecoration: 'underline', textUnderlineOffset: 2}}>Beetrack/DispatchTrack</span></p>
       <ul>
         { items.map((item) => { 
-          if(item.title == 'My Resume') {
+          if(item.title === 'My Resume') {
             return <li><a className={`button ${item.type}`} href={item.link} download>{item.type} <span>{item.title}</span></a></li>
-          } else if (item.title == 'Portfolio'){
+          } else if (item.title === 'Portfolio'){
             return <li><Link to="/"></Link><a className={`button ${item.type}`} href={item.link}>{item.type} <span>{item.title}</span></a></li>
           } else {
             return <li><a className={`button ${item.type}`} href={item.link}>{item.type} <span>{item.title}</span></a></li>
