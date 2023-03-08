@@ -3,10 +3,14 @@ import logo from "../assets/cumsi_512.png";
 import { AiFillGithub, AiOutlineFilePdf, AiOutlineLinkedin, AiOutlineCoffee, AiOutlineLayout} from "react-icons/ai";
 import Link from 'next/link';
 import Image from 'next/image'
+import Head from 'next/head'
 
 export default function Home() {
   return (
     <Wrapper>
+      <Head>
+        <title>Gastón Cusimano - Links</title>
+      </Head>
       <Image
       src={logo}
       className='logo'
