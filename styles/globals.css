@@ -1,0 +1,14 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;700&family=La+Belle+Aurore&family=Rubik:wght@900&display=swap);
+
+body {
+    margin: 0;
+  }
+  html,
+  body,
+  #root {
+    overflow-x: hidden;
+    height: 100%;
+    background: rgb(120,82,122);
+    background: linear-gradient(135deg, rgba(151,81,115,1) 0%, rgba(120,82,122,1) 35%, rgba(88,81,119,1) 80%);
+  }
+  
