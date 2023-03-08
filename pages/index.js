@@ -55,11 +55,11 @@ const Wrapper = styled.div`
   .logo {
     margin-top: 35px;
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0.16);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(8.6px);
-    -webkit-backdrop-filter: blur(8.6px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 6px 30px rgba(0, 0, 0, .4);
+    border: 1px solid rgba(161, 107, 107, 0.18); 
+    backdrop-filter: blur(5.6px);
+    -webkit-backdrop-filter: blur(5.6px);
     width: 240px;
     height: 240px;
 
@@ -216,10 +216,10 @@ const Wrapper = styled.div`
     text-decoration: none;
     margin-top: 15px;
     display: block;
-    background: rgba( 255, 255, 255, 0.05 );
-    box-shadow: 0 8px 22px 0 rgba( 31, 38, 135, 0.2 );
-    backdrop-filter: blur( 12.5px );
-    -webkit-backdrop-filter: blur( 12.5px );
+    background: rgba( 255, 255, 255, 0.08 );
+    backdrop-filter: blur( 6.5px );
+    -webkit-backdrop-filter: blur( 6.5px );
+    box-shadow: 0 6px 30px rgba(0, 0, 0, .4);
     border: 1px solid rgba(161, 107, 107, 0.18); 
     font-size: 20px;
     border-radius: 15px;
@@ -227,7 +227,7 @@ const Wrapper = styled.div`
     transition: 0.2s;
     &:hover {
       padding-left: 2px;
-      background: rgba( 255, 255, 255, 0.1 );
+      background: rgba( 255, 255, 255, 0.15 );
     }
   }
 `;

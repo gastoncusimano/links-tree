@@ -8,7 +8,13 @@ body {
   #root {
     overflow-x: hidden;
     height: 100%;
-    background: rgb(120,82,122);
-    background: linear-gradient(135deg, rgba(151,81,115,1) 0%, rgba(120,82,122,1) 35%, rgba(88,81,119,1) 80%);
+    background: #1d2338;
+    /* background: rgb(120,82,122); */
+    /* background: linear-gradient(135deg, rgba(151,81,115,1) 0%, rgba(120,82,122,1) 35%, rgba(88,81,119,1) 80%); */
+    background:
+    radial-gradient(circle at 100% 50%, transparent 20%, rgba(255,255,255,.03) 21%, rgba(255,255,255,.03) 34%, transparent 35%, transparent),
+    radial-gradient(circle at 0% 50%, transparent 20%, rgba(255,255,255,.03) 21%, rgba(255,255,255,.03) 34%, transparent 35%, transparent) 0 -50px;
+    background-color: #1d2338;
+    background-size:75px 100px;
   }
   
