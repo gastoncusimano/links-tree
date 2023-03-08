@@ -1,8 +1,6 @@
 import styled from "styled-components";
 import logo from './cumsi_512.png'
 import { AiFillGithub, AiOutlineFilePdf, AiOutlineLinkedin, AiOutlineCoffee, AiOutlineLayout} from "react-icons/ai";
-import { Link } from "react-router-dom";
-
 
 export default function Links() {
   return (
