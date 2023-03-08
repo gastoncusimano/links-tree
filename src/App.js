@@ -14,8 +14,6 @@ export default function Links() {
         { items.map((item) => { 
           if(item.title === 'My Resume') {
             return <li><a className={`button ${item.type}`} href={item.link} download>{item.type} <span>{item.title}</span></a></li>
-          } else if (item.title === 'Portfolio'){
-            return <li><Link to="/"></Link><a className={`button ${item.type}`} href={item.link}>{item.type} <span>{item.title}</span></a></li>
           } else {
             return <li><a className={`button ${item.type}`} href={item.link}>{item.type} <span>{item.title}</span></a></li>
           }
