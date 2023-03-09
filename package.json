@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@splinetool/react-spline": "^2.2.6",
+    "@splinetool/runtime": "^0.9.256",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
