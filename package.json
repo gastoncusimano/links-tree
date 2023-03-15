@@ -5,6 +5,7 @@
   "dependencies": {
     "@splinetool/react-spline": "^2.2.6",
     "@splinetool/runtime": "^0.9.256",
+    "@vercel/analytics": "^0.1.11",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
