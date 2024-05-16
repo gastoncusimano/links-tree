@@ -11,7 +11,7 @@ export default function Personal() {
       className='logo'
       alt="3D Model by Me on Blender" />
       <h1>Hi World! 👋 <br/>I'm <span className="purple-underline">Gaston Cusimano</span></h1>
-      <p> A Full Stack engineer from Argentina, based in Mexico. <br/> 3D enthusiast, musician wannabe, CSGO tilt player.</p>
+      <p> A Full Stack engineer from Argentina, based in Mexico. <br/> 3D enthusiast, WoW Addict (horde ofc).</p>
       <div className="links">
         <a href="https://www.linkedin.com/in/gaston-cusimano/" target="_blank"><AiOutlineLinkedin/></a>
         <a href="../public/Gaston_Cusimano_fullstack.pdf" download><AiOutlineFilePdf/></a>
