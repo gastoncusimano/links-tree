@@ -15,7 +15,6 @@ export default function Contact() {
         <div className="links">
           <a href="https://www.linkedin.com/in/gaston-cusimano/" target="_blank"><AiOutlineLinkedin/></a>
           <a href="mailto:gaston.cusimano@gmail.com" target="_blank"><AiOutlineMail/></a>
-          <a href="https://instagram.com/gastoncusimano" target="_blank"><AiOutlineInstagram/></a>
         </div>
       </div>
        
