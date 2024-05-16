@@ -3,7 +3,6 @@ import styled from "styled-components";
 import Personal from '../../components/Personal';
 import Timeline from '../../components/Timeline';
 import Skills from '../../components/Skills';
-import Showcase from '../../components/Showcase';
 import Contact from '../../components/Contact';
 export default function Portfolio() {
   return (
@@ -14,6 +13,7 @@ export default function Portfolio() {
       <Personal />
       <Timeline />
       <Skills />
+      <Contact />
     </Wrapper>
   );
 }
