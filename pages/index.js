@@ -16,7 +16,7 @@ export default function Home() {
       className='logo'
       alt="3D Model by Me on Blender" />
       <h1 className="h1" data-text={"Gastón Cusimano"}>Gastón Cusimano</h1>
-      <p className="p"> Full Stack Engineer @ <span style={{textDecoration: 'underline', textUnderlineOffset: 2}}>Beetrack/DispatchTrack</span></p>
+      <p className="p"> Full Stack Engineer @ <span style={{textDecoration: 'underline', textUnderlineOffset: 2}}>BUK Mex</span></p>
       <ul>
         { items.map((item) => { 
           if(item.title === 'My Resume') {
