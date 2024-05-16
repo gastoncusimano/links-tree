@@ -14,8 +14,6 @@ export default function Portfolio() {
       <Personal />
       <Timeline />
       <Skills />
-      {/*<Showcase />*/}
-      <Contact /> 
     </Wrapper>
   );
 }
