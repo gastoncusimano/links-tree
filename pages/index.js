@@ -20,7 +20,7 @@ export default function Home() {
       <ul>
         { items.map((item) => { 
           if(item.title === 'My Resume') {
-            return <li><a className={`button ${item.type}`} href="/Gaston_Cusimano_fullstack.pdf" download>{item.type} <span>{item.title}</span></a></li>
+            return <li><a className={`button ${item.type}`} href="/Gaston_Cusimano_Resume.pdf" download>{item.type} <span>{item.title}</span></a></li>
           } else if (item.title === 'Portfolio') {
             return <li><Link className={`button ${item.type}`} href={item.link}>{item.type} <span>{item.title}</span></Link></li>
           } else {
