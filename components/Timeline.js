@@ -12,13 +12,22 @@ export default function TimelinePage() {
 
 const data = [
   {
+    where: "Ridepanda - USA",
+    title: "Software Engineer",
+    date: "February 2026 - Present",
+    url: "https://www.ridepanda.com/",
+    linkedin: "https://www.linkedin.com/company/ridepanda",
+    body: "Implementing HSA / FSA, improving management subscription through Stripe, adding QoL features for Ops",
+    id: 0
+  },
+  {
     where: "BUK - Mexico",
     title: "Ruby on Rails Engineer Level 2",
-    date: "May 2023 - Present",
+    date: "May 2023 - March 2026",
     url: "https://www.buk.mx/",
     linkedin: "https://www.linkedin.com/company/buk-cl",
     body: "Improving performance on critical workflows. Mentorship to interns.",
-    id: 0
+    id: 1
   },
   {
     where: "Beetrack / DispatchTrack",
@@ -27,7 +36,7 @@ const data = [
     url: "https://www.beetrack.com/",
     linkedin: "https://www.linkedin.com/company/beetrack/",
     body: "Migrate core queues from SQS to RabbitMQ. Cloud functions on GCP; React Native to RoR. Built an Rails Engine based on OnDemand (existent product) to be mounted on top of our core product.",
-    id: 1
+    id: 2
   },
   {
     where: "KeyClouding",
@@ -36,7 +45,7 @@ const data = [
     url: "https://www.linkedin.com/company/keyclouding/",
     linkedin: "https://www.linkedin.com/company/keyclouding/",
     body: "First long-term freelance contract through Upwork. Dockerize many services. Help migration from Heroku to AWS. Improve performance and built new features. Ruby on Rails and VueJS/React.",
-    id: 2
+    id: 3
   },
   {
     where: "GOIAR",
@@ -45,7 +54,7 @@ const data = [
     url: "https://www.goiar.com/",
     linkedin: "https://www.linkedin.com/company/goiar/",
     body: "First remote experience. Work with many technologies. In this step I wanted to be more open to more front end techs. Worked with .NET, React (Intel Marketing Studio), Node, Python & React Native.",
-    id: 3
+    id: 4
   },
   {
     where: "Aldibs",
@@ -54,7 +63,7 @@ const data = [
     url: "https://aldibs.com/",
     linkedin: "https://www.linkedin.com/company/aldibs-software-solutions/",
     body: "First real world experience. In this step I started working with the engineers from the RoR bootcamp.",
-    id: 4
+    id: 5
   },
 ]
 
